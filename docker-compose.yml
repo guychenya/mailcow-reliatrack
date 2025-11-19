@@ -25,10 +25,10 @@ services:
       - ./data/conf/mysql/:/etc/mysql/conf.d/:ro,Z
     environment:
       - TZ=UTC
-      - MYSQL_ROOT_PASSWORD=changeme
+      - MYSQL_ROOT_PASSWORD=sZ8YVq++s1kIryN28VUNAjwXXf2nd7Jf2ze3M6BQyuA=
       - MYSQL_DATABASE=mailcow
       - MYSQL_USER=mailcow
-      - MYSQL_PASSWORD=changeme
+      - MYSQL_PASSWORD=6fNNZ7wrg6YmXh3kTWgSmYAfcInJlTaRuJtqJQi4cjo=
     restart: always
     networks:
       mailcow-network:
@@ -124,7 +124,7 @@ services:
     environment:
       - DBNAME=mailcow
       - DBUSER=mailcow
-      - DBPASS=changeme
+      - DBPASS=6fNNZ7wrg6YmXh3kTWgSmYAfcInJlTaRuJtqJQi4cjo=
       - TZ=UTC
       - MAILCOW_HOSTNAME=mail.reliatrack.org
     volumes:
@@ -167,7 +167,7 @@ services:
       - MAILCOW_HOSTNAME=mail.reliatrack.org
       - DBNAME=mailcow
       - DBUSER=mailcow
-      - DBPASS=changeme
+      - DBPASS=6fNNZ7wrg6YmXh3kTWgSmYAfcInJlTaRuJtqJQi4cjo=
       - MAILCOW_PASS_SCHEME=BLF-CRYPT
     restart: always
     networks:
